@@ -83,7 +83,7 @@ li {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 100px;
+    width: 120px;
     height: 60px;
     margin: -30px 0 0 -40px;
 }
@@ -123,7 +123,6 @@ li {
 .preloader .loading-text {
     position: absolute;
     top: 50px;
-    text-align: center;
     width: 100%;
     color: #eb5f00;
     font-size: 14px;
