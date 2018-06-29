@@ -62,7 +62,7 @@ $(function() {
     =========================================================================*/
     $("#welcome").backstretch([
         "./assets/images/slide1.png",
-        // "./assets/images/slide2.jpg",
+        "./assets/images/slide2.png",
         // "assets/images/your_pic.jpg" 
     ], { duration: 5000, fade: 400 });
 
