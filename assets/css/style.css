@@ -277,7 +277,7 @@ li {
 .header .main-nav ul li a {
     color: #bebebe;
     font-family: "Montserrat", sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
     position: relative;
@@ -314,8 +314,6 @@ li {
     top: -5px;
     height: 7px;
     width: 7px;
-    border-top: solid 2px #eb5f00;
-    border-left: solid 2px #eb5f00;
 }
 
 .header .main-nav ul li a:hover:after {
@@ -344,8 +342,6 @@ li {
     top: -5px;
     height: 7px;
     width: 7px;
-    border-top: solid 2px #eb5f00;
-    border-left: solid 2px #eb5f00;
 }
 
 .header .main-nav ul li.current a:after {
@@ -473,7 +469,7 @@ li {
 /* === Section Configure === */
 
 .main-content section {
-    padding: 60px 70px;
+    padding: 36px 70px;
     position: relative;
     border-bottom: solid 1px #EEE;
 }
@@ -575,13 +571,15 @@ li {
     position: relative;
     width: 500px;
     z-index: 1;
+    padding: 18px 0px;
+    background: rgba(12, 12, 12, 0.35);
 }
 
 .welcome .quote:before {
     content: '';
     position: absolute;
-    left: -32px;
-    top: -40px;
+    left: -12px;
+    top: -18px;
     height: 22px;
     width: 22px;
     border-top: solid 4px #eb5f00;
@@ -591,7 +589,7 @@ li {
 .welcome .quote:after {
     content: '';
     position: absolute;
-    right: -30px;
+    right: -12px;
     bottom: -18px;
     height: 22px;
     width: 22px;
@@ -618,7 +616,6 @@ li {
 }
 
 .welcome .overlay {
-    background: rgba(12, 12, 12, 0.65);
     height: 100%;
     left: 0;
     top: 0;
@@ -1259,7 +1256,7 @@ li {
 }
 
 .owl-theme .owl-controls {
-    margin-top: 30px;
+    margin-top: 18px;
 }
 
 
@@ -1333,7 +1330,7 @@ li {
 
 @media only screen and (max-width: 480px) {
     .main-content section {
-        padding: 60px 30px;
+        padding: 36px 30px;
     }
 }
 
