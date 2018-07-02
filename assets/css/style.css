@@ -376,10 +376,10 @@ li {
 .header .mobile-bar {
     background: #eb5f00;
     color: #FFF;
-    height: 60px;
-    right: -60px;
+    height: 48px;
+    right: -48px;
     position: absolute;
-    width: 60px;
+    width: 48px;
     z-index: 3;
 }
 
@@ -389,7 +389,7 @@ li {
     left: 15px;
     bottom: 0;
     margin: auto;
-    width: 30px;
+    width: 21px;
     height: 55px;
     cursor: pointer;
 }
@@ -397,7 +397,7 @@ li {
 .header .bar,
 .header .bar:after,
 .header .bar:before {
-    width: 30px;
+    width: 21px;
     height: 3px;
 }
 
