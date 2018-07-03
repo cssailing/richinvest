@@ -55,6 +55,9 @@ $(function() {
         "./assets/images/slide/slide4.png",
         "./assets/images/slide/slide5.png",
         "./assets/images/slide/slide6.png",
+        "./assets/images/slide/slide7.png",
+        "./assets/images/slide/slide8.png",
+        "./assets/images/slide/slide9.png",
         // "assets/images/your_pic.jpg" 
     ], { duration: 5000, fade: 400 });
 
