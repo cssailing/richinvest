@@ -83,46 +83,57 @@ li {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 120px;
-    height: 60px;
-    margin: -30px 0 0 -40px;
+    margin: -50px 0 0 -50px;
+    text-align: center;
 }
 
-.preloader .lines {
-    width: 100px;
-    height: 40px;
-    position: absolute;
+@keyframes wave {
+    0%,
+    100% {
+        transform: scaleY(1);
+    }
+    50% {
+        transform: scaleY(2);
+    }
 }
 
-.preloader .lines .line {
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.preloader .loader {
     width: 100px;
-    height: 1px;
+    height: 100px;
+}
+
+.preloader .loader>div {
+    float: left;
+    margin: 40% 2% 0 0;
+    width: 4%;
+    height: 16%;
     background-color: #eb5f00;
-    position: absolute;
-    clip: rect(0, 0, 20px, 0);
+    animation: wave 1s cubic-bezier(0.85, 0.25, 0.37, 0.85) infinite;
 }
 
-.preloader .lines .line.line-1 {
-    top: 0;
-    color: #eb5f00;
-    animation: slide 2s ease 0.1s infinite;
+.preloader .loader .line-1 {
+    margin-left: 35%;
 }
 
-.preloader .lines .line.line-2 {
-    top: 15px;
-    color: #eb5f00;
-    animation: slide 2s ease .25s infinite;
+.preloader .loader .line-1,
+.preloader .loader .line-5 {
+    animation-delay: .4s;
 }
 
-.preloader .lines .line.line-3 {
-    top: 30px;
-    color: #eb5f00;
-    animation: slide 2s ease .5s infinite;
+.preloader .loader .line-2,
+.preloader .loader .line-4 {
+    animation-delay: .2s;
 }
 
 .preloader .loading-text {
     position: absolute;
-    top: 50px;
+    top: 80px;
     width: 100%;
     color: #eb5f00;
     font-size: 14px;
