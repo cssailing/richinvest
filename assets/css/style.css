@@ -578,7 +578,7 @@ li {
 
 .welcome .quote {
     margin: 0 auto;
-    top: calc(50% - 60px);
+    top: calc(90% - 60px);
     position: relative;
     width: 500px;
     z-index: 1;
